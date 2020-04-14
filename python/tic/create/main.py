@@ -159,7 +159,7 @@ def create_tic(input_path: str, output_dir: str, tokeniser_path: str,
     '--workers',
     type=int,
     help=(
-        'Number of workers used to by the tokeniser. Defaults to computer\'s '
+        'Number of workers used by the tokeniser. Defaults to computer\'s '
         'CPU core count'
     )
 )

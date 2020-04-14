@@ -79,7 +79,7 @@ def tokenise(input_path: str, workers: Optional[int] = None) -> str:
     '--workers',
     type=int,
     help=(
-        'Number of workers used to by the tokeniser. Defaults to  computer\'s '
+        'Number of workers used by the tokeniser. Defaults to computer\'s '
         'CPU core count'
     )
 )
